@@ -1,0 +1,14 @@
+@mixin centerFlex($type: flex, $placingCross: center) {
+  display: $type;
+  align-items: $placingCross;
+}
+
+@mixin clientIcon($widthIcon, $heightIcon) {
+  width: $widthIcon;
+  height: $heightIcon;
+}
+// @mixin centerFlex($type, $placingMain, $placingCross) {
+//   display: $type;
+//   justify-content: $placingMain;
+//   align-items: $placingCross;
+// }
