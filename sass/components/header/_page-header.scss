@@ -37,22 +37,11 @@
   }
 }
 
-.curent {
-  color: $acent-txt-color;
-
-  &::after {
-    position: absolute;
-    display: block;
-    content: "";
-    text-align: center;
-    margin-top: 37px;
-    width: 48px;
-    height: 4px;
-
-    border-radius: 2px;
-    background: $acent-txt-color;
-  }
-}
+// .curent {
+//   &::after {
+//     @extend %curent;
+//   }
+// }
 
 .nav-contact {
   .contact-list {
